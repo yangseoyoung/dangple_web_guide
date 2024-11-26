@@ -1,60 +1,73 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>반려견 빗질의 중요성</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- 상단 탭 -->
-  <nav class="navbar">
-    <ul>
-      <li><a href="#section1">1. 피부 건강</a></li>
-      <li><a href="#section2">2. 오일 분비</a></li>
-      <li><a href="#section3">3. 털 엉킴</a></li>
-      <li><a href="#section4">4. 기생충 발견</a></li>
-      <li><a href="#section5">5. 교감</a></li>
-      <li><a href="#section6">6. 털 빠짐</a></li>
-      <li><a href="#section7">7. 계절 변화</a></li>
-      <li><a href="#section8">8. 추가 정보</a></li>
-      <li><a href="#section9">9. 참고 사항</a></li>
-      <li><a href="#section10">10. FAQ</a></li>
-      <li><a href="#section11">11. 팁</a></li>
-      <li><a href="#section12">12. 관련 자료</a></li>
-      <li><a href="#section13">13. 빗질 도구</a></li>
-      <li><a href="#section14">14. 시간 추천</a></li>
-      <li><a href="#section15">15. 주의할 점</a></li>
-      <li><a href="#section16">16. 빗질 효과</a></li>
-      <li><a href="#section17">17. 전문가 의견</a></li>
-      <li><a href="#section18">18. 사례</a></li>
-      <li><a href="#section19">19. 마무리</a></li>
-    </ul>
-  </nav>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
 
-  <!-- 메인 콘텐츠 -->
-  <main>
-    <header>
-      <h1>반려견을 위한 빗질의 중요성</h1>
-      <p>빗질은 단순히 털 관리 이상의 가치가 있어요!</p>
-    </header>
-    <!-- 각 섹션 -->
-    <section id="section1">
-      <h2>1. 피부 건강</h2>
-      <p>반려견의 피부는 매일 씻지 않기 때문에 털과 함께 관리가 필요해요...</p>
-    </section>
-    <section id="section2">
-      <h2>2. 오일 분비</h2>
-      <p>빗질을 통해 털 전체로 오일을 고르게 퍼뜨려 윤기 있는 털을 유지할 수 있어요...</p>
-    </section>
-    <section id="section3">
-      <h2>3. 털 엉킴</h2>
-      <p>정기적인 빗질은 털 엉킴을 예방하고 피부를 당기거나 통증을 유발하는 상황을 막아줘요...</p>
-    </section>
-    <section id="section19">
-      <h2>19. 마무리</h2>
-      <p>하루에 한 번 빗질로 반려견의 건강과 행복을 지켜주세요! 😊</p>
-    </section>
-  </main>
-</body>
-</html>
+.container {
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.content {
+  padding-top: 60px; /* 상단 네비게이션 높이만큼 패딩 */
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+header {
+  background-color: #ffc107;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 40px;
+  padding-top: 60px; /* 부드러운 스크롤링 조정 */
+}
+
+section h2 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+section p {
+  line-height: 1.6;
+}

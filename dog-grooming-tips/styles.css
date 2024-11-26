@@ -6,6 +6,10 @@ body {
   color: #333;
 }
 
+.container {
+  width: 100%;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -18,9 +22,9 @@ body {
 
 .navbar ul {
   list-style: none;
-  display: flex;
   margin: 0;
   padding: 0;
+  display: flex;
   overflow-x: auto;
   white-space: nowrap;
 }
@@ -41,10 +45,10 @@ body {
   background-color: #555;
 }
 
-main {
-  padding-top: 60px; /* 네비게이션 높이 */
+.content {
+  padding-top: 60px; /* 상단 네비게이션 높이만큼 패딩 */
+  margin: 20px auto;
   max-width: 800px;
-  margin: 0 auto;
 }
 
 header {
@@ -56,7 +60,7 @@ header {
 
 section {
   margin-bottom: 40px;
-  padding-top: 60px; /* 부드러운 스크롤링 */
+  padding-top: 60px; /* 부드러운 스크롤링 조정 */
 }
 
 section h2 {
