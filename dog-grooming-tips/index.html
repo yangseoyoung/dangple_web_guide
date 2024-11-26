@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.content {
+  padding-top: 60px; /* 상단 네비게이션 높이만큼 패딩 */
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+header {
+  background-color: #ffc107;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 40px;
+  padding-top: 60px; /* 부드러운 스크롤링 조정 */
+}
+
+section h2 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+section p {
+  line-height: 1.6;
+}
